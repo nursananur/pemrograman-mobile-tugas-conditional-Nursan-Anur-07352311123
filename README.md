@@ -1,1 +1,1 @@
-# pemrograman-mobile-tugas-conditional-Nursan-Anur-07352311123
+Nama : Nursan Anur NPM : 07352311123
