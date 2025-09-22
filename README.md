@@ -2,20 +2,25 @@ Nama : Nursan Anur
 NPM : 07352311123
 
 Deskripsi Program
-Program ini adalah sebuah aplikasi konsol sederhana yang ditulis dalam bahasa pemrograman Dart.  Fungsinya adalah untuk mengonversi nilai angka menjadi grade huruf berdasarkan skala penilaian tertentu. Pengguna akan diminta untuk memasukkan nilai, dan program akan mencetak skor serta grade yang sesuai.
-Grade A: Jika nilai berada dalam rentang 85 hingga 100.
-Grade B: Jika nilai berada dalam rentang 70 hingga 84.
-Grade C: Jika nilai berada dalam rentang 60 hingga 69.
-Grade D: Jika nilai berada dalam rentang 50 hingga 59.
-Grade E: Jika nilai di bawah 50.
-Jika nilai yang dimasukkan berada di luar rentang valid (misalnya, nilai lebih dari 100), program akan menampilkan pesan "nilai tidak tersedia".
+Program Dart ini adalah sebuah program penentu nilai (grade) yang dirancang untuk membantu menentukan grade akademik berdasarkan skor numerik.
+Program ini bekerja dengan cara:
+Meminta Masukan: Program akan meminta untuk memasukkan sebuah angka yang mewakili nilai.
+Menganalisis Nilai: Program akan membandingkan nilai yang di masukkan dengan rentang yang telah ditentukan contohnya:
+A: Nilai 85 hingga 100
+B: Nilai 70 hingga 84
+C: Nilai 60 hingga 69
+D: Nilai 50 hingga 59
+E: Nilai di bawah 50
+Menampilkan Hasil: Setelah memproses nilai, program akan menampilkan skor yang di masukkan dan grade yang sesuai. Jika nilai tidak berada dalam rentang yang valid (misalnya, di atas 100 atau berupa huruf), program akan memberikan pesan kesalahan.
 
 Cara Menjalankan Program
-Untuk menjalankan program ini, pastikan Anda telah menginstal SDK Dart di komputer Anda. Setelah itu, ikuti langkah-langkah berikut:
-Simpan Kode: Salin kode program di atas dan simpan dalam sebuah file dengan ekstensi .dart, misalnya grade.dart.
-Buka Terminal atau Command Prompt: Arahkan terminal Anda ke direktori tempat Anda menyimpan file tersebut.
-Jalankan Perintah: Ketikkan perintah berikut di terminal Anda, lalu tekan Enter.
-contohnya:
-Bash
-dart grade.dart
-Setelah menjalankan perintah, program akan meminta Anda untuk memasukkan nilai. Masukkan nilai yang diinginkan dan program akan menampilkan hasilnya.
+Untuk menjalankan program ini, pastikan sudah menginstal Dart SDK di komputer. 
+Berikut langkah-langkahnya:
+1. Salin Kode: Simpan kode di atas ke dalam file teks dan beri nama: grade_checker.dart.
+2. Buka Terminal: Buka aplikasi terminal atau command prompt di komputer.
+3. Arahkan ke Direktori: Gunakan perintah cd untuk pindah ke folder tempat menyimpan file grade_checker.dart.
+4. Jalankan Program: Ketik dart grade_checker.dart dan tekan Enter.
+5. Masukkan Nilai: Program akan menampilkan "Masukkan nilai : ". Ketik nilai yang ingin periksa (contoh: 90), lalu tekan Enter.
+6. Lihat Hasil: Terminal akan menampilkan skor dan grade Anda, misalnya:
+    Skor Anda : 90
+    Grade Anda: A
